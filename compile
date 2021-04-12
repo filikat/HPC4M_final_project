@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+## Load the required modules
+module load mpt
+module load intel-compilers-19
+
+## compile
+
+
+## compile with MPI:
+mpif90 final.f90 -o final.exe
+
+## remove object files if there is any!:
+# rm *.mod
+# rm *.o
+
